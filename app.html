@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
   <head>
-    <title>App Name: A Coding Project by Mariama Barry</title>
+    <title>FizzBuzz: A Coding Project by Mariama Barry</title>
     <link rel="icon" type="image/png" href="/img/logo/Favicons/Android.png" >
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -27,7 +27,7 @@
         <nav class="navbar navbar-expand-md navbar-dark fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="/img/logo/Favicons/no-bg/Android-removebg-preview.png" class="d-inline-block" width="40" height="40">
-            APP NAME</a>
+            FizzBuzz</a>
             <button
             class="navbar-toggler"
             type="button"
@@ -63,7 +63,45 @@
         <!-- ===== MAIN SECTION ===== -->
         <main class="flex-shrink-0">
             <div class="container">
-                
+                <div class = "row row-cols-1 row-cols-lg-2 mt-5 gx-5 gy-3">
+                    <div class="col border border-0 border-2 border-bottom border-end"> <!--left col-->
+                        <div class = "row">
+                            <div class="col-12"> <!--summary-->
+                                <h1 class="mt-5" >FizzBuzz App</h1>
+                                <p class="lead">mini app description...</p>
+                            </div>
+                            <div class="col"> <!--instructions-->
+                                <h2>Instructions</h2>
+                                <p>instructions...</p>
+                            </div>
+                        </div> 
+                        <div class = "row"></div> 
+                        <div class = "row"></div> <!--icons-->
+                    </div>
+                    <div class="col"> <!--right col-->
+                        <form>
+                            <div class="row row-cols-2">
+                                <div class="col">
+                                    <label for="fizzInput">Enter a Fizz number</label>
+                                    <input type="number" id="fizzInput" class="form-control">
+                                </div>
+                                <div class="col">
+                                    <label for="buzzInput">Enter a Buzz number</label>
+                                    <input type="number" id="buzzInput" class="form-control">
+                                </div>
+                                
+                                
+                            </div>
+                            <div class="row">
+                                <div class="d-grid col-3">
+                                    <button type="button" class="btn btn-primary mt-3 shadow-sm" id="submit">Submit</button>
+                                </div>
+                                
+                            </div>  
+                        </form>
+                        
+                    </div>
+                </div>
             </div>
         </main>
         <!-- ===== FOOTER SECTION ===== -->

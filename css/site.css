@@ -4,6 +4,10 @@
   --dark-color: #222831;
   --white-color: #fafafa;
 }
+@font-face {
+  font-family: ShuneetBold;
+  src: url(/css/fonts/Shuneet3\ Bold\ Regular.ttf);
+}
 @media screen and (max-width: 375px) {
   .responsiveicon {
   margin: 0;
@@ -54,6 +58,13 @@ h4,
 h5,
 h6 {
   color: var(--primary-color);
+  
+}
+
+h1,
+h2,
+h3 {
+  font-family: ShuneetBold;
 }
 .resize-svg{
   height: 50px;
